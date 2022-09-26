@@ -8,7 +8,7 @@ function App() {
 //change state thrugh the  buttion 
   return ( 
     <div>
-     <h1>Task 1  #</h1>
+     <h1>Task 2- React  #</h1>
      <button onClick={()=>setImg(bulbOn)}> On the bulb </button>
      <img src={img} style={{width:"250px" ,height:"200px"}} />
     <button onClick={()=>setImg(bulbOff)}>Off the bulb</button>
